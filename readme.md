@@ -8,7 +8,7 @@ https://vitepress.docschina.org/
 ## 启动预览
 yarn docs:dev
 
-## 打包，.vitepress/dist目录
+## 打包，.vitepress/dist目录下为静态文件
 yarn docs:build
 
 ## 配置文件
