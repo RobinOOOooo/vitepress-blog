@@ -18,3 +18,6 @@ yarn docs:build
 ## 配置文件
 .vitepress/config.js为配置文件
 
+github-pages
+github-pages分支为打包后的静态文件，配置github-pages到该分支root
+
