@@ -4,6 +4,7 @@ export default {
   description: 'Robin的博客',
   // 网站图标
   head: [['link', { rel: 'icon', href: '/favicon.ico' }]],
+  base: '/vitepress-blog/',
   // 主题配置
   themeConfig: {
 	// 主页左上角标题
@@ -76,7 +77,7 @@ export default {
       prev: '上一页',
       next: '下一页'
     },
-	// 右侧大纲目录
+	// 页面右侧大纲目录
 	outline: {
        level: "deep", // 右侧大纲标题层级
        label: "目录", // 右侧大纲标题文本配置

@@ -3,10 +3,10 @@ layout: home
 
 hero:
   name: Robin的博客
-  text: 彩虹🌈软糖
+  text: 🌈
   tagline: No pain,no gain.
   image:
-    src: /family.png
+    src: /family.jpg
     alt: Robin
   actions:
     - theme: brand
@@ -21,12 +21,7 @@ features:
     title: Simple and minimal, always
     details: Lorem ipsum...
   - icon:
-      src: /1.png
-    title: Another cool feature
-    details: Lorem ipsum...
-    link: /pages/java/readme
-  - icon:
-      src: /1.png
+      src: /加班.png
     title: Another cool feature
     details: Lorem ipsum...
   - icon:
@@ -36,8 +31,5 @@ features:
     details: Lorem ipsum...
 
 
-prev:
-  text: 'Markdown'
-  link: '/guide/markdown'
 ---
 

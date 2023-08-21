@@ -1,4 +1,8 @@
-# vitepress创建的博客
+# vitepress创建的静态网站
+```
+适合作为文档网站，做笔记等，做博客不太合适。博客系统推荐用hexo或者docusaurus
+参考：https://github.com/zrtch
+```
 
 ## 中文文档
 环境配置，文档说明等
