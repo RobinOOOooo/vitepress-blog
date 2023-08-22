@@ -1,16 +1,17 @@
 export default {
   lang: 'zh-CN',
-  title: 'Robin的博客',
-  description: 'Robin的博客',
+  title: "Robin's blog",
+  description: "Robin's blog",
   // 网站图标
   head: [['link', { rel: 'icon', href: '/favicon.ico' }]],
   base: '/vitepress-blog/',
   // 主题配置
   themeConfig: {
 	// 主页左上角标题
-    siteTitle: "Robin的博客",
+    siteTitle: "Robin's blog",
 	// 左上角图标
     logo: '/1.png',
+	lastUpdated: true,
 	lastUpdatedText: '上次更新',
 	returnToTopLabel: "返回顶部",
 	socialLinks: [
@@ -25,21 +26,21 @@ export default {
     },
 	// 顶部导航
     nav: [
-	  { text: 'Example', link: '/src/example' },
+	  { text: 'Readme', link: '/src/readme' },
       { text: 'Java', link: '/src/java/readme' },
 	  // 当页面地址匹配时，该导航将高亮
       { text: 'spring', link: '/src/spring/readme', activeMatch: '/src/spring/readme' },
 	  {
-        text: 'Dropdown Menu',
+        text: 'Tools',
         items: [
-          { text: 'Item A', link: '/item-1' },
+          { text: 'tool', link: '/src/tool/readme' },
           { text: 'Item B', link: '/item-2' },
           { text: 'Item C', link: '/item-3' }
         ]
       },
-      { text: 'Changelog', link: 'https://github.com/...' }
+      { text: 'Changelog', link: 'https://github.com/RobinOOOooo/vitepress-blog/commits/github-pages' }
     ],
-	// 侧边栏
+	// 侧边栏，根据路径匹配
 	sidebar: {
 	  '/src/java/': [
 	    {
@@ -81,7 +82,6 @@ export default {
 	outline: {
        level: "deep", // 右侧大纲标题层级
        label: "目录", // 右侧大纲标题文本配置
-     }
-	
+    }
   }
 }
