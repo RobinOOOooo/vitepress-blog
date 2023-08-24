@@ -34,8 +34,8 @@ export default {
         text: 'Tools',
         items: [
           { text: 'tool', link: '/src/tool/readme' },
-          { text: 'Item B', link: '/item-2' },
-          { text: 'Item C', link: '/item-3' }
+          { text: 'component', link: '/src/tool/component' },
+          { text: 'jquery', link: '/src/tool/jquery' }
         ]
       },
       { text: 'Changelog', link: 'https://github.com/RobinOOOooo/vitepress-blog/commits/github-pages' }

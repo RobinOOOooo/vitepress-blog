@@ -39,3 +39,5 @@ https://vitejs.cn/vitepress/
 https://github.com/zrtch
 ```
 
+## 插件
+- yidocs 开箱即用，并且无需手动配置 侧边栏 和 导航栏，https://yicode.tech/2-%E5%BC%80%E6%BA%90/2-yidocs/1-%E8%AF%B4%E6%98%8E%E6%96%87%E6%A1%A3.html
