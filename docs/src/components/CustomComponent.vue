@@ -32,6 +32,7 @@ export default {
 
     //第一种写法叫做get别名请求方法
     //http://localhost:8080/static/data.json?id=1
+	/*
     axios.get('http://localhost:10002/api/getList', {
       params: {//有参数时,若无参数时直接省略不写
         id: 1
@@ -40,6 +41,7 @@ export default {
       console.log('数据：', res);
 	  this.items = res.data.data;
     })
+	*/
 
   }
 }
