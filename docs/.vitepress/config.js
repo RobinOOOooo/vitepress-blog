@@ -21,7 +21,7 @@ export default {
 	// 下面的配置只在除首页外的页面生效
 	// 编辑链接，github的地址
 	editLink: {
-      pattern: 'https://github.com/RobinOOOooo/vitepress-blog.git/docs/:path',
+      pattern: 'https://github.com/RobinOOOooo/vitepress-blog/edit/main/docs/:path',
       text: 'Edit this page on GitHub'
     },
 	// 顶部导航
@@ -36,6 +36,12 @@ export default {
           { text: 'tool', link: '/src/tool/readme' },
           { text: 'component', link: '/src/tool/component' },
           { text: 'jquery', link: '/src/tool/jquery' }
+        ]
+      },
+	  {
+        text: '源码',
+        items: [
+          { text: 'springboot', link: '/src/源码/springboot' }
         ]
       },
       { text: 'Changelog', link: 'https://github.com/RobinOOOooo/vitepress-blog/commits/github-pages' }

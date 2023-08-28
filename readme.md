@@ -21,3 +21,7 @@ yarn docs:build
 github-pages
 github-pages分支为打包后的静态文件，配置github-pages到该分支root
 
+# 目录结构
+public：存放图片等静态资源
+docs：md页面文件
+.vitepress：打包输出dist目录，config.js配置文件
