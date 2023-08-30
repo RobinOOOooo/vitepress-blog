@@ -13,6 +13,8 @@
 		</tr>
 	</table>
   </div>
+ 
+	  
 </template>
 
 <script>
@@ -25,6 +27,9 @@ export default {
 	return {
 		items: [
 			{title:"",img:"",url:""}
+		],
+		images: [
+			{name:"name",url:"/1.png"}
 		]
 	}
   },

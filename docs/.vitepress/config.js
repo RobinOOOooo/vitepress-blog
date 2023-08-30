@@ -39,9 +39,15 @@ export default {
         ]
       },
 	  {
-        text: '源码',
+        text: 'Source Code',
         items: [
-          { text: 'springboot', link: '/src/源码/springboot' }
+          { text: 'springboot', link: '/src/源码/启动流程' }
+        ]
+      },
+	  {
+        text: 'Gallery',
+        items: [
+          { text: 'leo', link: '/src/gallery/leo' }
         ]
       },
       { text: 'Changelog', link: 'https://github.com/RobinOOOooo/vitepress-blog/commits/github-pages' }
@@ -68,7 +74,16 @@ export default {
             { text: 'Getting Started', link: '/src/getting-started' },
           ]
         }
-	  ],	  
+	  ],
+	  '/src/源码/启动流程': [
+	    {
+          text: '启动流程',
+          items: [
+            { text: '启动流程', link: '/src/源码/启动流程' },
+			{ text: '代码片段', link: '/src/源码/代码片段' }
+          ]
+        }
+	  ],
     },
 	// 页脚
 	footer: {

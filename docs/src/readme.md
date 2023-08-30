@@ -41,3 +41,9 @@ https://github.com/zrtch
 
 ## 插件
 - yidocs 开箱即用，并且无需手动配置 侧边栏 和 导航栏，https://yicode.tech/2-%E5%BC%80%E6%BA%90/2-yidocs/1-%E8%AF%B4%E6%98%8E%E6%96%87%E6%A1%A3.html
+
+## 如何写文章
+
+> src目录下写md文件，最后md文件会被编译成html文件，路径和md所在路径一样，eg：src/a/b.md->a/b.html，config.js中设置顶部导航和左侧导航，类比为顶部为一级菜单，左侧为二级菜单，eg："源码/springboot"为一级，
+表示springboot的源码系列（配置为对应左侧第一个页面），点开后，左侧菜单再具体细分，每一个链接都是一个页面
+
