@@ -1,1 +1,0 @@
-import{_ as e,o as t,c as a}from"./chunks/framework.39c1605d.js";const m=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"src/源码/代码片段.md","filePath":"src/源码/代码片段.md","lastUpdated":1693381212000}'),r={name:"src/源码/代码片段.md"};function s(c,o,n,_,d,p){return t(),a("div")}const f=e(r,[["render",s]]);export{m as __pageData,f as default};
