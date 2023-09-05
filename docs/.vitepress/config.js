@@ -31,11 +31,12 @@ export default {
 	  // 当页面地址匹配时，该导航将高亮
       { text: 'spring', link: '/src/spring/readme', activeMatch: '/src/spring/readme' },
 	  {
-        text: 'Tools',
+        text: 'Others',
         items: [
-          { text: 'tool', link: '/src/tool/readme' },
-          { text: 'component', link: '/src/tool/component' },
-          { text: 'jquery', link: '/src/tool/jquery' }
+          { text: 'linux', link: '/src/other/linux' },
+          { text: 'readme', link: '/src/other/readme' },
+          { text: 'component', link: '/src/other/component' },
+          { text: 'jquery', link: '/src/other/jquery' }
         ]
       },
 	  {

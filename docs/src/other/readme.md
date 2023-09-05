@@ -40,6 +40,7 @@ export default {
     return {
       title: '博客列表页',
       blogs: [
+		{title:"title"}
       ]
     }
   },
