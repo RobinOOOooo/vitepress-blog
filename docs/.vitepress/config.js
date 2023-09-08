@@ -31,12 +31,20 @@ export default {
 	  // 当页面地址匹配时，该导航将高亮
       { text: 'spring', link: '/src/spring/readme', activeMatch: '/src/spring/readme' },
 	  {
-        text: 'Others',
+        text: 'Other',
         items: [
           { text: 'linux', link: '/src/other/linux' },
           { text: 'readme', link: '/src/other/readme' },
           { text: 'component', link: '/src/other/component' },
-          { text: 'jquery', link: '/src/other/jquery' }
+          { text: 'jquery', link: '/src/other/jquery' },
+		  { text: 'git代码规范', link: '/src/other/git代码规范' },
+		  { text: '收藏', link: '/src/other/收藏' }
+        ]
+      },
+	  {
+        text: 'Book',
+        items: [
+          { text: '置身事内：中国政府与经济发展', link: '/src/book/置身事内：中国政府与经济发展' }
         ]
       },
 	  {
@@ -85,11 +93,20 @@ export default {
           ]
         }
 	  ],
+	  '/src/源码/代码片段': [
+	    {
+          text: '启动流程',
+          items: [
+            { text: '启动流程', link: '/src/源码/启动流程' },
+			{ text: '代码片段', link: '/src/源码/代码片段' }
+          ]
+        }
+	  ],
     },
 	// 页脚
 	footer: {
       message: 'Released under the MIT License.',
-      copyright: 'Copyright © 2022-2023 Robin Lian'
+      copyright: 'Copyright © 1990-2023 Robin Lian'
     },
 	// 搜索
 	search: {

@@ -9,6 +9,9 @@
 https://vitejs.cn/vitepress/
 https://vitepress.docschina.org/
 
+## 更新依赖包
+yarn install
+
 ## 启动预览
 yarn docs:dev
 
