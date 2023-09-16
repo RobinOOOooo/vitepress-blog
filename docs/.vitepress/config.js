@@ -29,7 +29,14 @@ export default {
 	  { text: 'Readme', link: '/src/readme' },
       { text: 'Java', link: '/src/java/readme' },
 	  // 当页面地址匹配时，该导航将高亮
-      { text: 'spring', link: '/src/spring/readme', activeMatch: '/src/spring/readme' },
+      { 
+		text: 'spring', 
+		activeMatch: '/src/spring/readme',
+		items: [
+          { text: 'readme', link: '/src/spring/readme' },
+          { text: 'Spring Boot 3.x', link: '/src/spring/springboot3.x' },
+        ]
+	  },
 	  {
         text: 'Other',
         items: [
@@ -44,7 +51,8 @@ export default {
 	  {
         text: 'Book',
         items: [
-          { text: '置身事内：中国政府与经济发展', link: '/src/book/置身事内：中国政府与经济发展' }
+          { text: '置身事内：中国政府与经济发展', link: '/src/book/置身事内：中国政府与经济发展' },
+		  { text: '图解六道轮回', link: '/src/book/图解六道轮回' }
         ]
       },
 	  {
@@ -71,16 +79,6 @@ export default {
             { text: 'readme', link: '/src/java/readme' },
             { text: 'page1', link: '/src/java/page1' },
 			{ text: 'page2', link: '/src/java/page2' }
-          ]
-        }
-	  ],
-	  '/src/spring/': [
-	    {
-          text: 'Spring',
-		  collapsed: true,
-          items: [
-            { text: 'Introduction', link: '/src/introduction' },
-            { text: 'Getting Started', link: '/src/getting-started' },
           ]
         }
 	  ],
