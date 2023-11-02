@@ -67,6 +67,18 @@ export default {
           { text: 'leo', link: '/src/gallery/leo' }
         ]
       },
+	  {
+        text: '运维',
+        items: [
+          { text: '运维', link: '/src/运维/运维' }
+        ]
+      },
+      {
+        text: '架构',
+        items: [
+          { text: '架构', link: '/src/架构/架构' }
+        ]
+      },
       { text: 'Changelog', link: 'https://github.com/RobinOOOooo/vitepress-blog/commits/github-pages' }
     ],
 	// 侧边栏，根据路径匹配
