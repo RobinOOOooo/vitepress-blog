@@ -22,7 +22,7 @@ hero:
 features:
   - icon: 🍾
     title: 《飞鸟集》-- 泰戈尔
-    details: I love three things in this world.Sun, moon and you. Sun for morning, moon for night,and you forever.浮世万千，挚爱有三，喷薄朝阳，皓婉皎月，不及汝尔，沧海桑田
+    details: I love three things in this world.Sun, moon and you. Sun for morning, moon for night,and you forever.浮世万千，挚爱有三，喷薄朝阳，皓婉皎月，不及汝尔，沧海桑田。
   - icon: ☕
     title: Home
     details: Home is where the heart is.
